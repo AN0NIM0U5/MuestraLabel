@@ -42,6 +42,7 @@ private EditText txt;
             @Override
             public void onClick(View view) {
                 textEntry.setText("sdhbgsdgd");
+
             }
         });
 
