@@ -81,9 +81,6 @@ private EditText txt;
             if( event.getAction() == MotionEvent.ACTION_DOWN ){
                 Vibrator vibe = (Vibrator) getSystemService( VIBRATOR_SERVICE );
                 vibe.vibrate( durationMs );
-
-
-
             }
             return true;
         }
